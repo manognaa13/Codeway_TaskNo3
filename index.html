@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title>TRAVEL AGENCY Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">TRAVEL</span><span class="tv">AGENCY</span
+          ><span class="fist">&#x2708;</span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav-link"
+            >Testimonals</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link" id="nav-link"
+            >Contact</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear">  “Live The Moments  </span> <br />
+          <span class="connecting">you Can’t Put Into Words!!”</span>
+        </h1>
+        <p>
+        "Discover the world's wonders, one destination at a time, with our travel expertise."
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe
+          width="560"
+          height="315"
+          src="assets/images/vid1.mp4"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Discover Amazing Destinations</h3>
+      <p>
+        From bustling cities to serene landscapes, we offer a wide range of destinations to satisfy every traveler's wanderlust.
+      </p>
+      <h3>Experience Unforgettable Adventures!</h3>
+      <p>
+        Dive into thrilling activities such as hiking, snorkeling, and cultural tours, curated to provide you with an unforgettable travel experience.
+      </p>
+    </section>
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/italy.jpg" class="big">
+          <img
+            src="assets/images/italy.jpg"
+            alt="ITALY"
+            title="ITALY"
+          />
+        </a>
+
+        <a href="assets/images/kerala.jpg" class="big">
+          <img
+            src="assets/images/kerala.jpg"
+            alt="KERALA"
+            title="KERALA"
+          />
+        </a>
+
+        <a href="assets/images/lasvegas.jpg" class="big">
+          <img
+            src="assets/images/lasvegas.jpg"
+            alt="LAS VEGAS"
+            title="LAS VEGAS"
+          />
+        </a>
+
+        <a href="assets/images/paris.jpg" class="big">
+          <img
+            src="assets/images/paris.jpg"
+            alt="PARIS"
+            title="PARIS"
+          />
+        </a>
+
+        <a href="assets/images/singapore.jpg" class="big"
+          ><img
+            src="assets/images/singapore.jpg"
+            alt="SINGAPORE"
+            title="SINGAPORE"
+          />
+        </a>
+
+        <a href="assets/images/switzerland.jpg" class="big">
+          <img
+            src="assets/images/switzerland.jpg"
+            alt="SWITZERLAND"
+            title="SWITZERLAND"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Agency Testimonals -->
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/r1.png" alt="John Doe" />
+          </div>
+          <div class="person-2">
+            <img src="assets/images/r2.png" alt="Jane Doe" />
+          </div>
+          <div class="person-3">
+            <img src="assets/images/r3.png" alt="John Doe Jnr" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="container">  
+        <form action="" method="post">
+          <h3>Contact </h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2020. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+    <script>
+      // Scroll to the top of the page when it's loaded
+      window.onload = function() {
+        window.scrollTo(0, 0);
+      };
+    </script>
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var   lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
+
